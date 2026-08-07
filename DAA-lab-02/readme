@@ -1,1 +1,19 @@
+3>Worst Case Time Complexity (Method 1)
 
+Suppose each array has n elements.
+First merge
+n + n = 2n
+Second merge
+2n + n = 3n
+Third merge
+3n + n = 4n
+
+...
+
+Last merge
+(k-1)n + n = kn
+Total
+2n + 3n + 4n + ... + kn
+= n(2+3+...+k)
+= O(nk²)
+Worst Case Time Complexity = O(nk²)
