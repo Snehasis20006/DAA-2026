@@ -1,1 +1,6 @@
+Question	                   Technique	                       Time	                           Space
+7. Rod Cutting	             Dynamic Programming	            O(n²)	                           O(n)
+8. OBST                     	Dynamic Programming	            O(n³)	                           O(n²)
+9. Collatz	                 Iterative simulation            	O(S(n))                          for one n	O(1)
+9. Interval [a,b]	           Simulate each value	           O(Σ S(n))	                       O(1)
 
